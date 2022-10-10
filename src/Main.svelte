@@ -1,6 +1,12 @@
 <script>
   import { onMount } from "svelte";
+  import { hotspots, page_num } from "./store";
   let audio = null;
+
+  // https://image-map.weebly.com/
+  // Create and export image maps from the above site
+
+  console.log($hotspots);
 
   onMount(() => {
     _gorilla.addEventListener(

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Londrina+Outline&family=Londrina+Solid:wght@400&family=Nunito:wght@300;400;600;700&display=swap");
+
+/* TODO: download font */
+
+* { box-sizing: Border-box ;
+margin:0;}
+
+:root {
+  --border-width: 1.5vw;
+
+  --main-font: "Londrina Solid";
+  --white: hsl(0, 0%, 100%);
+  --yellow: hsl(44, 90%, 77%);
+  --light-yellow: hsl(48, 100%, 80%);
+  --orange: hsl(36, 75%, 75%);
+  --pink:hsl(340, 66%, 64%);
+  --light-pink: hsl(330, 100%, 87%);
+  --blue:hsl(204, 74%, 70%);
+  --dark-blue:hsl(219, 49%, 62%);
+  --transparent-blue:hsla(226, 6%, 57%, 0.5);
+  --outline: hsl(279, 21%, 52%);
+  --gray:hsl(226, 6%, 57%);
+  --light-gray: hsl(219, 56%, 93%);
+  --off-white:hsl(213, 61%, 90%);
+  --medium-gray: hsl(0, 0%, 85%);
+  --green: hsl(160, 41%, 55%);
+  --light-green: hsl(162, 45%, 62%);
+
+  --border-light:  hsl(0, 0%, 100%);
+}
+
+html,
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 8px; */
+  font-family: "Fredoka", sans-serif;
+}
